@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+
+  background-color: #EAF6F6;
+}
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/main.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 780px;
+}
+h2{
+  margin-bottom: 5px;
+}
+hr{
+  margin-top: 10px;
+  border: solid #e6e6e6 2px;
+  width: 16%;
+}
+p{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(51, 51, 51);
+}
+.title_text{
+  position: absolute;
+  top: 30%;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+.profile{
+  align-items: center;
+  width:100%;
+}
+.prof_text{
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color:rgb(51, 51, 51);
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  width: 100%;
+  align-items: center;
+}
+.allign{
+  position: absolute;
+  width: 66.67%;
+}
+.head{
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+}
+.numb_container {
+  position:absolute;
+  right:100%;
+}
+.numb{
+  position: absolute;
+  right: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.25);
+}
+.links{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: #42b4d6;
+  text-decoration: none;
+}
+.links:hover {
+    text-decoration: underline;
+}
+.space{
+  height: 20px;
+}
+.para {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(51, 51, 51);
+  margin:0px;
+}
+.images {
+  margin-bottom: 120px;
+  max-height: 100%;
+  max-width: 100%;
+}
+#vrk-img {
+  background-image: url("../images/profpic.jpeg");
+  background-size: cover;
+  border-radius: 100%;
+  width: 100px;
+  border: 1px solid white;
+  height: 100px;
+  position: absolute;
+  top: 450px;
+  left: 45%;
+}
